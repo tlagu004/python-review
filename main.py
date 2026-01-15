@@ -1,3 +1,4 @@
+import pandas as pd
 print("Hi greg's students in Internship Ready")
 print(len("fiu"))
 print(type("fiu"))
@@ -27,3 +28,12 @@ print(professors[5:])
 professors.remove("kianoosh")
 print(professors.index("mark"))
 x= professors.pop()
+professors.sort()
+water_data = {
+    "temp":"bread",
+}
+print(water_data)
+print(water_data.keys())
+print(water_data.values())
+df = pd.DataFrame(water_data)
+print(df)
