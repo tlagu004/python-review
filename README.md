@@ -13,3 +13,12 @@ uv run main.py
 ```
 uv add ruff
 ```
+
+## Run on Server
+
+```
+streamlit run /home/user/pythonreview/dashboard.py \
+  --server.enableCORS=false \
+  --server.enableXsrfProtection=false \
+  --browser.serverAddress=localhost
+```
