@@ -2,6 +2,12 @@
 
 This is a simple Python [uv](https://docs.astral.uv) starter in Firebase Studio.
 
+## Installation
+
+```
+pip install
+```
+
 ## Running
 
 ```
