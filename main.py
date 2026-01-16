@@ -30,7 +30,7 @@ print(professors.index("mark"))
 x= professors.pop()
 professors.sort()
 water_data = {
-    "temp":"bread",
+    "temp":"100 Farenheit",
 }
 print(water_data)
 print(water_data.keys())
