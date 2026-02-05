@@ -1,2 +1,18 @@
+# Python bytecode and cache files
+__pycache__/
+*.py[co]
+
+# Flask instance folder (often used for config/sessions/cache data not in repo)
+instance/
+
+# Flask-Caching specific default cache directory (if using FileSystemCache default)
+flask_cache/ 
+
+# Other common cache and temporary directories/files
+.webassets-cache
+.pytest_cache
+build/
+dist/
+*.egg-info/
 .env
 temp_doc
